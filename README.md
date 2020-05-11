@@ -15,8 +15,10 @@ the stracture of the ini file should be:
 ```
 # .project_root.ini   
 
-[Project_Root]   
+[Project_Root] 
+use_absolute_path=True
 absolute_path=/home/project/absolute/path
+folder_level=0
 ```
 ---
 
@@ -64,3 +66,25 @@ utils was imported!!!
 utils was imported!!!
 ```
 
+### project root on shared projects  
+In this case the absolute path of the project changes between users.  
+Therefore, use the folder_level option.  
+  
+ini files for the example above:
+```
+# .project_root.ini   
+
+[Project_Root] 
+use_absolute_path=False
+absolute_path=None
+folder_level=o
+
+
+# src/.project_root.ini   
+
+[Project_Root] 
+use_absolute_path=False
+absolute_path=None
+folder_level=1
+```
+---
