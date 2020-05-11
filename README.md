@@ -38,6 +38,7 @@ e.g,
 # app.py
 
 import os
+import project_root
 import src.utils
 
 ---
