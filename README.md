@@ -1,8 +1,7 @@
 # Project Root
-Run your python code from any nested module.
 
-Got tired of import errors when running from the terminal/ide/from inside a nested module.  
-Plus can't stand "import os, sys ... sys.path.app...".
+I got tired of import errors when running from the terminal/ide/from inside a nested module.  
+Plus I can't stand the "import os, sys ... sys.path.app..." fix.
 
 This project solves it for me.  
 I'm sure there are other/better ways - hit me in the issue tab with suggestions.
