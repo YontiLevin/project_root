@@ -12,7 +12,7 @@ DESCRIPTION = 'run your code for any nested module'
 URL = 'https://github.com/yontilevin/project_root'
 EMAIL = 'therealyontilevin@gmail.com'
 AUTHOR = 'Yonti Levin'
-VERSION = '0.0.1'
+VERSION = '0.1.2'
 
 REQUIRED = []
 
