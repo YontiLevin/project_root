@@ -16,7 +16,7 @@ the stracture of the ini file should be:
 # .project_root.ini   
 
 [Project_Root] 
-use_absolute_path=True
+use_absolute_path=true
 absolute_path=/home/project/absolute/path
 folder_level=0
 ```
@@ -75,15 +75,15 @@ ini files for the example above:
 # .project_root.ini   
 
 [Project_Root] 
-use_absolute_path=False
+use_absolute_path=false
 absolute_path=None
-folder_level=o
+folder_level=0
 
 
 # src/.project_root.ini   
 
 [Project_Root] 
-use_absolute_path=False
+use_absolute_path=false
 absolute_path=None
 folder_level=1
 ```
